@@ -31,9 +31,9 @@ class App extends Component {
   }
 
   counterIncreaseCallback () {
-    this.setState({
-      clickcount: this.state.clickcount + 1
-    });
+    this.setState((previousState) => ({
+      clickcount: previousState.clickcount + 1
+    }));
   }
 
   myCallback (dataFromSearchbar) {
