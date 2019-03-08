@@ -40,7 +40,6 @@ class IpPopModal extends React.Component {
 
 
     this.props.callFromApp();
-    console.log(this.props.ipAddress);
     if(this.state.className === 'bottom-right') {
       this.setState({
         className: 'clicked'

@@ -86,7 +86,7 @@ class App extends Component {
                    callFromApp={this.counterIncreaseCallback} />
                  <div className='containerApp'>
               {
-                filtered.length ? filtered.map((hospital, index) => <Hospitals key={index} hospObj={hospital} />) : <h1>Hospital not found</h1>
+                filtered.length ? filtered.map((hospital, index) => <Hospitals key={index} hospObj={hospital} />) : <h1>Hospital not found. Try a different hospital name.</h1>
             }
           </div>
         </div>

@@ -24,7 +24,7 @@ class Hospitals extends Component {
         <h1 className='hospital-name'>{facility_name}</h1>
         <p>This hospital is located in {borough}</p>
         <p>For appointments please call {phone}</p>
-        <p className={visible ? "visible" : "hidden"}>This facility is a {facility_type}</p>
+        <p className={visible ? "visible" : "hidden"}>This facility is a {facility_type}.</p>
         <button className='hospButton' onClick={this.showType}>Facility Type</button>
       </div>
     )
