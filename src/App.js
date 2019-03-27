@@ -95,10 +95,3 @@ class App extends Component {
   }
 
 export default App
-
-  /* to render in App.js
-  <IpPop clickcountAttr={clickcount}
-         clickcountSent={this.state.clickcount}
-         callFromApp={this.counterIncreaseCallback} />
-
-  */

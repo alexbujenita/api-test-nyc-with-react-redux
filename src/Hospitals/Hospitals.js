@@ -31,32 +31,4 @@ class Hospitals extends Component {
   }
 }
 
-
-
-// const Hospitals = ({ hospObj }) => {
-//   const { facility_name, facility_type, phone, borough } = hospObj
-//   return (
-//     <div className='card'>
-//     <h1 className='hospital-name'>{facility_name}</h1>
-//     <p>This hospital is located in {borough}</p>
-//     <p>For appointments please call {phone}</p>
-//     <p>This facility is a {facility_type}</p>
-//     <button>Facility Type</button>
-//     </div>
-//   )
-// }
-//
-// const Hospitals = (props) => {
-//   console.log(props.hospObj)
-//   return (
-//     <div>
-//     <h1 className='hospital-name'>{props.hospObj.facility_name}</h1>
-//     <p>This hospital is located in {props.hospObj.borough}</p>
-//     <p>For appointments please call {props.hospObj.phone}</p>
-//     <p>This facility is a {props.hospObj.facility_type}</p>
-//     <button>Facility Type</button>
-//     </div>
-//   )
-// }
-
 export default Hospitals;
